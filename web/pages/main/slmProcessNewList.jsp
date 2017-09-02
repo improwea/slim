@@ -28,7 +28,7 @@
 <%!
     
     /**
-     * This method reads the excel sheet data 
+     * This method reads the excel sheet data - pushed to GIT
      *
      * @param args holds the following inputs
      *                          0 - file path
@@ -40,6 +40,8 @@
      *            - Row data map holds all rows data with key as Row number and value as Column Map
      *            - Column Map holds 1 row data with key as Cell index and value as cell data
      */
+    
+    // this method gets the data from the Excel file
     public static Map getSheetData (String[] args) throws Exception
     {
         Map mSheetData = new HashMap<String, Map> ();
